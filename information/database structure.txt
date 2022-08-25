@@ -1,0 +1,40 @@
+USUARIO
+- usuario_id
+- nombre
+- apellido
+- usuario
+- correo
+- password
+- foto
+- nacimiento
+- database
+- cuenta
+- tema
+- estado
+- llave
+- ultima_sesion
+
+TAREAS
+- task_id
+- titulo
+- contenido
+- tipo
+- etiquetas
+- user_id
+- referencia
+- prioridad
+- grupo
+- subgrupo
+- creacion
+- limite
+- ult_actualizacion
+- bloqueo
+- estado
+
+NOTIFICATIONS
+- id_notification
+- id_user
+- content
+- fecha
+- limite
+- estado

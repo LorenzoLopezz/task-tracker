@@ -1,0 +1,91 @@
+.titulo {
+    font-family :'Raleway:700', sans-serif;
+}
+
+.subtitulo {
+    font-family : 'Thasadith:400', sans-serif;
+}
+
+.parrafo {
+    font-family: 'Open Sans:400', sans-serif;
+} 
+
+.back-p_nav {
+    background  :#445E68;
+    color       :white;
+}
+
+.secondary_nav {
+    background  : white;
+    box-shadow  : 0px 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon_text{
+    font-family     : 'Raleway',sans-serif;
+    color           : #006FFF;
+    text-shadow     : 0px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media(max-width:740px){
+    .icon_text {
+        margin-bottom   : 10px;
+    }
+}
+
+.open_p_m {
+    color       : white;
+}
+
+.big-button {
+    margin-top  : 20px;
+    color       : white;
+    cursor      : pointer;
+    padding     : 5px auto;
+    background  : none;
+    border-radius: 50px;
+    border      : 2px solid transparent;
+    font-family : 'Raleway:400',sans-serif;
+    font-size   : 12px;
+    width       : 100%;
+    transition  : .3s all ease-in-out;
+}
+
+.big-button:hover {
+    background  : #006FFF;
+}
+
+.big-button-active {
+    border      :2px solid #006FFF;
+}
+
+.accept-btn {
+    width       : 75%;
+    background  : #2779BD;
+}
+
+.accept-btn:hover {
+    background  : rgb(4, 29, 97);
+    box-shadow  : 0px 6px 15px rgba(0, 0, 0, 0.4);
+    transition  : .3s all ease-in-out;
+}
+
+.cancel-btn {
+    width       : 75%;
+    background  : #ff2700;
+}
+
+.cancel-btn:hover {
+    background  : #961903;
+    box-shadow  : 0px 6px 15px rgba(0, 0, 0, 0.4);
+    transition  : .3s all ease-in-out;
+}
+
+/* COLORS */
+
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
